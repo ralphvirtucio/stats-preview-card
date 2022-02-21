@@ -17,13 +17,14 @@ body {
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 138rem;
   margin: 20rem auto;
   background-color: hsl(244, 38%, 16%);
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 8px;
-  height: 58rem;
+  height: 50rem;
+  gap: 10rem;
 }
 
 .content-container {
@@ -31,8 +32,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* padding: 0 12rem 0 5rem; */
-  /* padding: 10rem; */
+  padding: 0px 0rem 0 11rem;
+  width: 48rem;
 }
 
 .heading {
@@ -48,6 +49,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 1.5;
   margin-bottom: 8rem;
+  font-size: 1.5rem;
 }
 .stats-info {
   display: flex;
