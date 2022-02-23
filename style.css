@@ -42,11 +42,8 @@ body {
 .img-container {
   width: 100%;
   height: 100%;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
   border-radius: 8px;
   background-color: hsl(277, 64%, 61%);
-  background-blend-mode: multiply;
 }
 
 .heading {
@@ -66,10 +63,6 @@ body {
   line-height: 1.5;
 }
 
-/* .stats-info {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
 .stats-info {
   display: flex;
   justify-content: space-between;
@@ -99,7 +92,12 @@ body {
   .content-image {
     width: 100%;
     height: 100%;
-    order: -1;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 100%;
+    /* order: -1; */
   }
 
   .stats-info {
