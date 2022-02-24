@@ -84,7 +84,7 @@ body {
   font-weight: 400;
 }
 
-@media screen and (max-width: 23.5rem) {
+@media screen and (max-width: 23.4rem) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
