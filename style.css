@@ -121,6 +121,7 @@ body {
 
   .description {
     margin-bottom: 2rem;
+    padding: 0 1rem;
   }
 
   .stats-info {
