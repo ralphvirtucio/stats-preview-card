@@ -90,7 +90,7 @@ select {
   --dark-desatured-blue: hsl(244, 38%, 16%);
   --soft-violet: hsl(277, 64%, 61%);
 
-  --white: hsl(0 0%, 100%);
+  --white: hsl(0, 0%, 100%);
   --neutral-color-1: hsla(0, 0%, 100%, 0.75);
   --neutral-color-2: hsla(0, 0%, 100%, 0.6);
 
@@ -103,3 +103,61 @@ select {
 
 
 /* ********************************* */
+
+/* MAIN STYLES */
+
+/* ********************************* */
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.left--col {
+  background-color: var(--dark-desatured-blue);
+  padding: 2rem;
+  text-align: center;
+}
+
+.stat__heading {
+  color: var(--white);
+  font-family: var(--fs-inter);
+}
+
+.stat__heading span {
+  color: var(--soft-violet);
+}
+
+.stat__description {
+  color: var(--neutral-color-1);
+  font-family: var(--fs-inter);
+  font-size: var(--fs-body);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.stats__list-item p {
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 700;
+  font-family: var(--fs-inter);
+}
+
+.stats__list-item h2 {
+  text-transform: uppercase;
+  color: var(--neutral-color-2);
+  font-family: var(--fs-lexend-deca);
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: var(--fs-body);
+  /* font-size: 1rem; */
+}
