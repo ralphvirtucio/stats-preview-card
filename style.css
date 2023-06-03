@@ -116,6 +116,9 @@ body {
 .stat {
   display: flex;
   flex-direction: column-reverse;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 90%;
 }
 
 .left--col {
@@ -124,24 +127,47 @@ body {
   text-align: center;
 }
 
+
+.right--col {
+  position: relative;
+  display: inline-block;
+}
+
+#img-overlay {
+  background-color: var(--soft-violet);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  mix-blend-mode: multiply;
+}
+
+
 .stat__heading {
   color: var(--white);
   font-family: var(--fs-inter);
+  margin-block-end: 1rem;
+  line-height: normal;
 }
 
 .stat__heading span {
   color: var(--soft-violet);
+
 }
 
 .stat__description {
   color: var(--neutral-color-1);
   font-family: var(--fs-inter);
   font-size: var(--fs-body);
+  margin-block-end: 2rem;
 }
 
 .stats {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   /* text-align: center; */
 }
 
