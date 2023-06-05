@@ -183,13 +183,21 @@ select {
 @media screen and (min-width: 1024px) {
   .stat {
     flex-direction: row;
-    width: auto;
+    margin-inline: auto;
+    /* width: 65rem; */
+    /* max-width: 80rem; */
+    /* max-width: 60%; */
+    width: 67rem;
   }
 
   .left--col {
     padding: 5rem;
-    /* width: 50%; */
+    width: 50%;
     text-align: initial;
+  }
+
+  .stat__heading {
+    font-size: 2rem;
   }
 
   .stat__description {
@@ -204,5 +212,6 @@ select {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     overflow: hidden;
+    width: 50%;
   }
 }
